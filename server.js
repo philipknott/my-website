@@ -17,6 +17,4 @@ app.get('/projects', (req, res) => {
     res.render('projects.ejs')
 })
 
-app.listen(3000, () => {
-    console.log("https://philipknott.net")
-})
+app.listen(3000)
