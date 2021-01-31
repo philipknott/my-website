@@ -1,0 +1,34 @@
+body {
+    font-family: montserrat, sans-serif;
+}
+
+.card {
+    height: 100%;
+    background-color: #123746;
+    color: white;
+}
+
+.hero {
+    background-size: cover;
+    background-image: url("../img/ski.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+strong {
+    color: white;
+}
+
+.lightblue {
+    background-color: #18475A;
+}
+
+.darkblue {
+    background-color: #123746;
+}
+
+a {
+    color: cornflowerblue;
+}
