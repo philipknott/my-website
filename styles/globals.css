@@ -1,5 +1,19 @@
-body {
-    font-family: montserrat, sans-serif;
+@import url("https://use.typekit.net/tou5qmy.css");
+
+h1 {
+    font-family: 'montserrat';
+}
+
+p {
+    font-family: 'montserrat';
+}
+
+.navbar-item {
+    font-family: 'montserrat';
+}
+
+.icon {
+    vertical-align: middle;
 }
 
 .card {
@@ -10,7 +24,7 @@ body {
 
 .hero {
     background-size: cover;
-    background-image: url("../img/ski.jpeg");
+    background-image: url("../public/img/ski.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,16 +48,11 @@ a {
 }
 
 a:hover {
-    color: #4c71b6
+    color: #4c71b6;
 }
 
-.parallax {
-    background-image: url("../img/ship.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: overlay;
-    background-position: center;
-    background-color: #5f5f5f;
-
+.headshot {
+    width: 275px;
+    margin: auto;
+    max-width: 90%;
 }
