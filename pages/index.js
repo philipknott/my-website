@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
             <Head>
-                <title>Next Philip Knott</title>
+                <title>Philip Knott</title>
                 <link rel="icon" href="img/favicon.png" type="image/x-icon" />
             </Head>
 
