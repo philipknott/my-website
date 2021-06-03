@@ -1,0 +1,71 @@
+{
+    "experience": [
+        {
+            "company": "University of Colorado, Boulder",
+            "location": "Boulder, Colorado, United States",
+            "image": "https://www.colorado.edu/bfp/sites/default/files/styles/medium/public/people/cuboulder-large.png?itok=RCZvVtMJ",
+            "roles": [
+                {
+                    "title": "Director of Graphics & Media",
+                    "startdate": "Apr 2021",
+                    "enddate": "Present",
+                    "description": [
+                        "Leading a committee of students in creating graphic designs for various engineering-related events hosted by the University of Colorado's Engineering Council",
+                        "Promoting events through designing social media posts, flyers, t-shirts, stickers, masks, etc."
+                    ]
+                },
+                {
+                    "title": "Undergraduate Student Researcher",
+                    "startdate": "Aug 2020",
+                    "enddate": "May 2021",
+                    "description": [
+                        "Conducting research with CU Computer Science Professor Clayton Lewis to develop intuitive software aimed to act as a scheduling and organizational support agent for people with cognitive disabilities",
+                        "Working under the University of Colorado Boulder's Discovery Learning Apprenticeship Program",
+                        "Sponsored by the Coleman Institute for Cognitive Disabilities",
+                        "Using with Node.js and RESTful APIs to communicate with Google Calendar and Smart Home devices"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "HackCU",
+            "location": "Boulder, Colorado, United States",
+            "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/596/803/datas/large.png",
+            "roles": [
+                {
+                    "title": "Technology Team Member",
+                    "startdate": "Apr 2021",
+                    "enddate": "Present",
+                    "description": [
+                        "Collaborating with a small team to promote hackathons, workshops, and other events held by the largest student-run CS organization in Boulder",
+                        "Developing the HackCU website with React and Next.js, utilizing full stack development tools and continuous integration (CI/CD)"
+                    ]
+                },
+                {
+                    "title": "Marketing Team Member",
+                    "startdate": "Feb 2021",
+                    "enddate": "Apr 2021",
+                    "description": [
+                        "Engaging with students through social media and graphic design using Photoshop and other Adobe software"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Engineers Without Borders USA",
+            "location": "Boulder, Colorado, United States",
+            "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQEOigc0A9w5wg/company-logo_100_100/0/1519888276756?e=1630540800&v=beta&t=hJuXXIhbB7qnqwWfHpJBuRQ9qfEoIvqs2QlMRV--Xs0",
+            "roles": [
+                {
+                    "title": "Engineering Volunteer",
+                    "startdate": "Feb 2021",
+                    "enddate": "May 2021",
+                    "description": [
+                        "Volunteering with fellow student engineers to improve the quality of life of developing communities through the implementation of environmentally sustainable, equitable, and economical engineering projects"
+                    ]
+
+                }
+            ]
+        }
+    ]
+}

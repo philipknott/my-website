@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Navbar = () => {
     return (
         <nav className="navbar is-dark">
@@ -11,10 +13,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-menu" id="navMenu">
                     <div className="navbar-start">
-                        <a className="navbar-item" href="/">About</a>
+                        <Link href="/">
+                            <a className="navbar-item">About</a>
+                        </Link>
                         <a className="navbar-item"
                             href="https://drive.google.com/file/d/1dlA72u353dnxsp6ORHVCN6I-dqJ9zHX-/view" target="_blank">Resume</a>
-                        <a className="navbar-item" href="/projects">Projects</a>
                     </div>
                 </div>
             </div>

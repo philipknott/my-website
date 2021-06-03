@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="footer pt-5" style={{backgroundColor: '#123746'}}>
+        <footer className="footer pt-5" style={{ backgroundColor: '#123746' }}>
             <div className="container has-text-white has-text-centered">
                 <div className="content is-size-7-mobile">
                     <p>
@@ -8,7 +8,13 @@ const Footer = () => {
                         <a href="https://github.com/philipknott/my-website"><strong> View Github Repository</strong></a>
                     </p>
 
-                    <a href="mailto: filupnot@gmail.com"><strong>filupnot@gmail.com</strong></a>
+                    <p>
+                        <a href="mailto: filupnot@gmail.com"><strong>filupnot@gmail.com</strong></a>
+                    </p>
+
+                    <p>
+                        This website will continue to be developed and more content will be added in the future. -Phil
+                    </p>
                 </div>
             </div>
         </footer>

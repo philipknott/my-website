@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { FaCode, FaBook, FaSchool } from 'react-icons/fa'
+import Experience from '../components/Experience';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 // import styles from '../styles/index.module.css'
@@ -120,7 +121,7 @@ const Home = () => {
                                 </h1>
                                 <p><strong className="has-text-white">School: </strong>University of Colorado, Boulder</p>
                                 <p><strong className="has-text-white">Major: </strong>Computer Science</p>
-                                <p><strong className="has-text-white">Department: </strong>College of Engineering & Applied Science</p>
+                                <p><strong className="has-text-white">Department: </strong>College of Engineering {'&'} Applied Science</p>
                                 <p><strong className="has-text-white">Grade: </strong>Junior (71 credits)</p>
                                 <p><strong className="has-text-white">Expected Graduation: </strong>Spring 2023</p>
                                 <p><strong className="has-text-white">Current GPA: </strong>3.98</p>
@@ -130,7 +131,9 @@ const Home = () => {
                 </div>
             </section>
 
-            <Footer />            
+            <Experience />
+
+            <Footer />
         </div>
 
     );
