@@ -19,6 +19,11 @@ const Navbar = () => {
                         <a className="navbar-item"
                             href="https://drive.google.com/file/d/1dlA72u353dnxsp6ORHVCN6I-dqJ9zHX-/view" target="_blank">Resume</a>
                     </div>
+                    <div className="navbar-end">
+                        <Link href="/waverollers">
+                            <a className="navbar-item">Waverollers Poster</a>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </nav>
