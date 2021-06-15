@@ -1,0 +1,48 @@
+{
+    "courses": [
+        {
+            "title": "Introduction to Artificial Intelligence",
+            "code": "CSCI 3202"
+        },
+        {
+            "title": "Algorithms",
+            "code": "CSCI 3104"
+        },
+        {
+            "title": "Software Development Methods & Tools",
+            "code": "CSCI 3308"
+        },
+        {
+            "title": "Introduction to Data Science",
+            "code": "CSCI 3022"
+        },
+        {
+            "title": "Fundamentals of Human-Computer Interaction",
+            "code": "CSCI 3002"
+        },
+        {
+            "title": "Discrete Structures",
+            "code": "CSCI 2824"
+        },
+        {
+            "title": "Linear Algebra with CS Applications",
+            "code": "CSCI 2820"
+        },
+        {
+            "title": "Computer Systems",
+            "code": "CSCI 2400"
+        },
+        {
+            "title": "Programming and Data Structures",
+            "code": "CSCI 2275"
+        },
+        {
+            "title": "General Physics 1-2",
+            "code": "PHYS 1110, 1120"
+        },
+        {
+            "title": "Calculus 1-2",
+            "code": "MATH 1300, 2300"
+        }
+    ]
+}
