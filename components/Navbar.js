@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <nav className="navbar is-dark">
+        <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
             <div className="container">
                 <div className="navbar-brand">
                     <a role="button" className="navbar-burger" data-target="navMenu">
@@ -13,16 +13,29 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-menu" id="navMenu">
                     <div className="navbar-start">
-                        <Link href="/">
-                            <a className="navbar-item">About</a>
-                        </Link>
-                        <a className="navbar-item"
-                            href="https://drive.google.com/file/d/1dlA72u353dnxsp6ORHVCN6I-dqJ9zHX-/view" target="_blank">Resume</a>
-                    </div>
-                    <div className="navbar-end">
-                        <Link href="/waverollers">
-                            <a className="navbar-item">Waverollers Poster</a>
-                        </Link>
+                        <a href="/" className="navbar-item">
+                            Home
+                        </a>
+                        <a href="/contact" className="navbar-item">
+                            Contact
+                        </a>
+                        <a href="https://drive.google.com/file/d/1dlA72u353dnxsp6ORHVCN6I-dqJ9zHX-/view" target="_blank" className="navbar-item">
+                            Resume
+                        </a>
+                        
+                        {/* <a className="navbar-item" key='1'>
+                            <Link href="/">
+                                Home
+                            </Link>
+                        </a>
+                        <a className="navbar-item" key='2'>
+                            <Link href="/contact">
+                                Contact
+                            </Link>
+                        </a>
+                        <a className="navbar-item"  key='3' href="https://drive.google.com/file/d/1dlA72u353dnxsp6ORHVCN6I-dqJ9zHX-/view" target="_blank">
+                            Resume
+                        </a> */}
                     </div>
                 </div>
             </div>

@@ -5,6 +5,13 @@ const Experience = () => {
         <section className="section lightblue">
             <div className="container">
                 <h1 className="title has-text-white">Experience</h1>
+                <p className="subtitle">
+                    <strong>
+                        <a href="https://drive.google.com/file/d/1dlA72u353dnxsp6ORHVCN6I-dqJ9zHX-/view" target="_blank">
+                            View Resume PDF
+                        </a>
+                    </strong>
+                </p>
                 {experience.map((data, key) => {
                     return (
                         <div className="media" key={key}>
@@ -24,7 +31,7 @@ const Experience = () => {
                                                 <ul className="has-text-white mt-0">
                                                     {data.description.map((data, key) => {
                                                         return (
-                                                            <li key={key}>
+                                                            <li key={key} className="mb-0 mt-0">
                                                                 {data}
                                                             </li>
                                                         )

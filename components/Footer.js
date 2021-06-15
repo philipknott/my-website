@@ -7,13 +7,8 @@ const Footer = () => {
                         Created with Next.js and React. Styled with Bulma.
                         <a href="https://github.com/philipknott/my-website"><strong> View Github Repository</strong></a>
                     </p>
-
                     <p>
                         <a href="mailto: filupnot@gmail.com"><strong>filupnot@gmail.com</strong></a>
-                    </p>
-
-                    <p>
-                        This website will continue to be developed and more content will be added in the future. -Phil
                     </p>
                 </div>
             </div>

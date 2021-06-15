@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "title": "Languages/Database",
+            "content": "Javascript, C++, Python, Java, HTML, CSS, Bash/Zsh, PostgreSQL"
+        },
+        {
+            "title": "Frameworks/Technologies",
+            "content": "Node.js, Next.js, Express.js, React, Svelte, EJS, Bulma, Bootstrap"
+        },
+        {
+            "title": "Version Control/Tools",
+            "content": "Git/Github, Jira, Visual Studio Code"
+        },
+        {
+            "title": "Software",
+            "content": "Adobe Suite, Microsoft Office Suite, Autodesk Fusion 360"
+        },
+        {
+            "title": "Other",
+            "content": "Going outside sometimes"
+        }
+    ]
+}

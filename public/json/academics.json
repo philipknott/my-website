@@ -1,0 +1,29 @@
+{
+    "academics": [
+        {
+            "title": "School",
+            "content": "University of Colorado, Boulder"
+        },
+        {
+            "title": "Major",
+            "content": "Computer Science (BS)"
+        },
+        {
+            "title": "Department",
+            "content": "College of Engineering & Applied Science"
+        },
+        {
+            "title": "Year",
+            "content": "Junior"
+        },
+        {
+            "title": "Expected Graduation",
+            "content": "Spring 2023"
+        },
+        {
+            "title": "Current GPA",
+            "content": "3.96"
+        }
+        
+    ]
+}

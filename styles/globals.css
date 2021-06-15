@@ -22,7 +22,7 @@ p {
     color: white;
 }
 
-.hero {
+.has-background {
     background-size: cover;
     background-image: url("../public/img/ski.jpeg");
     background-position: center;

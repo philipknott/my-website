@@ -3,7 +3,11 @@ import { FaCode, FaBook, FaSchool } from 'react-icons/fa'
 import Experience from '../components/Experience';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-// import styles from '../styles/index.module.css'
+import Projects from '../components/Projects';
+
+const { skills } = require('../public/json/skills.json')
+const { courses } = require('../public/json/courses.json')
+const { academics } = require('../public/json/academics.json')
 
 const Home = () => {
     return (
@@ -53,22 +57,14 @@ const Home = () => {
                                     </span>
                                     <span>Skills</span>
                                 </h1>
-                                <p>
-                                    <strong className="has-text-white">Languages/Database: </strong>
-                                    Javascript, C++, Python, Java, HTML, CSS, Bash/Zsh, PostgreSQL
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Frameworks/Technologies: </strong>
-                                    Node.js, Express, Svelte, Bulma, Bootstrap
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Version Control/Tools: </strong>
-                                    Git/Github, Visual Studio Code
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Software: </strong>
-                                    Adobe Suite, Microsoft Office Suite, Atlassian/Jira
-                                </p>
+                                {skills.map((data, key) => {
+                                    return (
+                                        <p key={key}>
+                                            <strong className="has-text-white">{data.title}: </strong>
+                                            {data.content}
+                                        </p>
+                                    )
+                                })}
                             </div>
                         </div>
 
@@ -80,34 +76,14 @@ const Home = () => {
                                     </span>
                                     <span>Coursework</span>
                                 </h1>
-                                <p>
-                                    <strong className="has-text-white">Programming and Data Structures </strong>
-                                    <span className="has-text-grey-light">CSCI 2275</span>
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Computer Systems </strong>
-                                    <span className="has-text-grey-light">CSCI 2400</span>
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Discrete Structures </strong>
-                                    <span className="has-text-grey-light">CSCI 2824</span>
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Introduction to Data Science </strong>
-                                    <span className="has-text-grey-light">CSCI 3022</span>
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Software Development Methods {'&'} Tools </strong>
-                                    <span className="has-text-grey-light">CSCI 3308</span>
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">General Physics 1-2 </strong>
-                                    <span className="has-text-grey-light">PHYS 1110, 1120</span>
-                                </p>
-                                <p>
-                                    <strong className="has-text-white">Calculus 1-2 </strong>
-                                    <span className="has-text-grey-light">MATH 1300, 2300</span>
-                                </p>
+                                {courses.map((data, key) => {
+                                    return (
+                                        <p key={key}>
+                                            <strong className="has-text-white">{data.title} </strong>
+                                            <span className="has-text-grey-light">{data.code}</span>
+                                        </p>
+                                    )
+                                })}
                             </div>
                         </div>
 
@@ -119,12 +95,14 @@ const Home = () => {
                                     </span>
                                     <span>Academics</span>
                                 </h1>
-                                <p><strong className="has-text-white">School: </strong>University of Colorado, Boulder</p>
-                                <p><strong className="has-text-white">Major: </strong>Computer Science</p>
-                                <p><strong className="has-text-white">Department: </strong>College of Engineering {'&'} Applied Science</p>
-                                <p><strong className="has-text-white">Grade: </strong>Junior (71 credits)</p>
-                                <p><strong className="has-text-white">Expected Graduation: </strong>Spring 2023</p>
-                                <p><strong className="has-text-white">Current GPA: </strong>3.98</p>
+                                {academics.map((data, key) => {
+                                    return (
+                                        <p key={key}>
+                                            <strong className="has-text-white">{data.title}: </strong>
+                                            {data.content}
+                                        </p>
+                                    )
+                                })}
                             </div>
                         </div>
                     </div>
@@ -132,6 +110,8 @@ const Home = () => {
             </section>
 
             <Experience />
+
+            <Projects />
 
             <Footer />
         </div>

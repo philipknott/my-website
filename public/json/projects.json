@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "title": "CharityHub",
+            "image": "img/charityhub.png",
+            "link": "https://github.com/philipknott/charityhub/tree/master",
+            "description": "This website is a non-profit centralized database that provides a straight-forward and accessible way for common people to find charities catered to their interests or relevant to their situations. Team class project for CSCI 3308: Software Dev Methods & Tools.",
+            "date": "Fall 2020"
+        },
+        {
+            "title": "Nonogram Solver",
+            "image": "img/nonograms.png",
+            "link": "https://github.com/philipknott/nonogram-solver",
+            "description": "A script that can solve any Nonogram puzzle on puzzle-nonograms.com, with thorough documentation on how to use it on GitHub. Independent project.",
+            "date": "Summer 2020"
+        },
+        {
+            "title": "CU Campus Navigation",
+            "image": "img/campus.png",
+            "link": "https://github.com/philipknott/cu-campus-nav",
+            "description": "A program that helps the user navigate through and find the optimal path between two points in CU Boulder's campus. Independent class project for CSCI 2275: Programming and Data Structures.",
+            "date": "Fall 2019"
+        }
+    ]
+}
