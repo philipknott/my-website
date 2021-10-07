@@ -34,13 +34,11 @@ const Home = () => {
                             I grew up outside San Francisco in the Bay Area, where I have lived my entire life.
                         </p>
                         <p>
-                            In addition to academics, some of my interests include skiing, tennis, longboarding,
-                            biking,
-                            and
-                            rock-climbing.
+                            In addition to academics, some of my interests include skiing, tennis, slacklining, longboarding,
+                            biking, and rock-climbing.
                         </p>
                         <p>
-                            Please hire me, I don't want to lifeguard anymore.
+                            I am interested in and open to all opportunities in tech and programming, especially in Software Development.
                         </p>
                     </div>
                 </div>

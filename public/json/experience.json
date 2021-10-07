@@ -1,9 +1,27 @@
 {
     "experience": [
         {
+            "company": "Cyberline",
+            "location": "Boulder, Colorado",
+            "image": "https://images.squarespace-cdn.com/content/v1/60e45cb14576a3515599b4d7/7fd0d6a2-071e-4bbc-aab4-94896b792f71/whitefullk-07.png?format=1500w",
+            "link": "https://www.wildflower.club/",
+            "roles": [
+                {
+                    "title": "Application Developer",
+                    "startdate": "Jun 2021",
+                    "enddate": "Present",
+                    "description": [
+                        "Working in an agile environment at a local startup to develop a mobile dating app called WildFlower",
+                        "Focusing on the fabrication of the Android version using Kotlin (in conjunction with our iOS/Swift version)"
+                    ]
+                }
+            ]
+        },
+        {
             "company": "University of Colorado, Boulder",
-            "location": "Boulder, Colorado, United States",
+            "location": "Boulder, Colorado",
             "image": "https://www.colorado.edu/bfp/sites/default/files/styles/medium/public/people/cuboulder-large.png?itok=RCZvVtMJ",
+            "link": "https://www.colorado.edu/",
             "roles": [
                 {
                     "title": "Director of Graphics & Media",
@@ -19,17 +37,18 @@
                     "startdate": "Aug 2020",
                     "enddate": "May 2021",
                     "description": [
-                        "Conducting research with CU Computer Science Professor Clayton Lewis to develop intuitive software aimed to act as a scheduling and organizational support agent for people with cognitive disabilities",
-                        "Working under the University of Colorado Boulder's Discovery Learning Apprenticeship Program, sponsored by the Coleman Institute for Cognitive Disabilities",
-                        "Using Node.js and RESTful APIs to communicate with Google Calendar and Smart Home devices"
+                        "Conducted research with CU Computer Science Professor Clayton Lewis to develop intuitive software aimed to act as a scheduling and organizational support agent for people with cognitive disabilities",
+                        "Worked under the University of Colorado Boulder's Discovery Learning Apprenticeship Program, sponsored by the Coleman Institute for Cognitive Disabilities",
+                        "Used Node.js and RESTful APIs to communicate with Google Calendar and Smart Home devices"
                     ]
                 }
             ]
         },
         {
             "company": "HackCU",
-            "location": "Boulder, Colorado, United States",
+            "location": "Boulder, Colorado",
             "image": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/596/803/datas/large.png",
+            "link": "https://hackcu.org/",
             "roles": [
                 {
                     "title": "Technology Team Member",
@@ -52,8 +71,9 @@
         },
         {
             "company": "Engineers Without Borders USA",
-            "location": "Boulder, Colorado, United States",
-            "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQEOigc0A9w5wg/company-logo_100_100/0/1519888276756?e=1630540800&v=beta&t=hJuXXIhbB7qnqwWfHpJBuRQ9qfEoIvqs2QlMRV--Xs0",
+            "location": "Boulder, Colorado",
+            "image": "https://assets.classy.org/3414416/0419b204-3f5d-11e8-a535-0e536837d064.jpg",
+            "link": "https://www.ewb-usa.org/",
             "roles": [
                 {
                     "title": "Engineering Volunteer",
@@ -68,8 +88,9 @@
         },
         {
             "company": "College of Marin",
-            "location": "Kentfield, CA",
-            "image": "https://lh3.googleusercontent.com/proxy/FgUzU1c11_CbmXnht-AG4BmJ9npDbbTA3tOPSkJvEs4g2Z-slcgBCtmIEYLM2h9HwuK3ovyiC0uqhDeSy4F0jMT60s2jbSUcSDlFTqQfbRBDWmV76F9kX5eJVhSsh4cO3XrY3hfPtOPMjQBIembIUk06xtQJR2AWGLjrLBI",
+            "location": "Kentfield, California",
+            "image": "https://lh3.googleusercontent.com/proxy/uwKPxctJ5sgp2-moM9yzzNVrh_vubU_dKCZUAl6KXw_7oPc9KIzULkkAApbMNwDxV31a2n98Haq8LSVfL4Tl-LA-DFLXH-nahlZYDey2djlSBNhb1S4bB5i16W-YpRGXUfXmp1TB9DDKv9Hr3qzp0g4XZ1nkh_C5Hxi7Xyc",
+            "link": "http://www1.marin.edu/",
             "roles": [
                 {
                     "title": "Lifeguard",

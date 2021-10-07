@@ -2,7 +2,7 @@
     "skills": [
         {
             "title": "Languages/Database",
-            "content": "Javascript, C++, Python, Java, HTML, CSS, Bash/Zsh, PostgreSQL"
+            "content": "Javascript/TypeScript, C++, Python, Java, Kotlin, HTML, CSS, Bash/Zsh, PostgreSQL"
         },
         {
             "title": "Frameworks/Technologies",
@@ -10,15 +10,11 @@
         },
         {
             "title": "Version Control/Tools",
-            "content": "Git/Github, Jira, Visual Studio Code"
+            "content": "Git, Github, BitBucket, Jira, Confluence, Visual Studio Code, IntelliJ"
         },
         {
             "title": "Software",
             "content": "Adobe Suite, Microsoft Office Suite, Autodesk Fusion 360"
-        },
-        {
-            "title": "Other",
-            "content": "Going outside sometimes"
         }
     ]
 }

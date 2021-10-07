@@ -9,6 +9,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start > stdout.txt 2> stderr.txt &"
   }
 }

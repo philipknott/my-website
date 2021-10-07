@@ -16,9 +16,11 @@ const Experience = () => {
                     return (
                         <div className="media" key={key}>
                             <div className="media-left">
-                                <figure className="image is-64x64">
-                                    <img src={data.image} />
-                                </figure>
+                                <a href={data.link} target="_blank">
+                                    <figure className="image is-64x64">
+                                        <img src={data.image} />
+                                    </figure>
+                                </a>
                             </div>
                             <div className="media-content">
                                 <div className="content">
